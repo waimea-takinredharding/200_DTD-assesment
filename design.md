@@ -30,31 +30,31 @@ Replace this text with a brief statement about the system that you intend to cre
 
 ### Usability
 
-Replace this text with a clear explanation of what the implication means.
+The usability of a system is how easy/difficult it is for users to make the system do it's intended purpose.
 
-Replace this text with an explanation of why the implication is relevant to this particular project.
+I will need to design my system to be as usable as possible since the main client (the shop owner) of the second-hand shop may not have advanced IT skills. Any customers that use the website could also have a wide range of IT skills. I need to ensure that the system is usable for people, even if they aren’t skilled with IT.
 
 Replace this text with an explanation of what you will need to consider moving forward and how the project will be impacted by this implication.
 
 ### Aesthetics
 
-Replace this text with a clear explanation of what the implication means.
+The aesthetic implications of a system relate to how it looks in terms of design.
 
-Replace this text with an explanation of why the implication is relevant to this particular project.
+I should include aesthetic considerations when i design the system UI because a pleasantly designed interface is much more enjoyable to use than a badly designed one(clashing colours, etc.). This is especially important because several customers might be using the website, so the appearance has more importance than if it was just the shop owner using the site.
 
 Replace this text with an explanation of what you will need to consider moving forward and how the project will be impacted by this implication.
 
 ### End-users
 
-Replace this text with a clear explanation of what the implication means.
+The end-user implications of a digital technology or digital outcome (e.g. a website) are connected to the specific needs of the end-user(s).
 
-Replace this text with an explanation of why the implication is relevant to this particular project.
+It is very important that i ensure the end product fulfils the shop owner's requirements (being able to digitally record inventory), because that is the entire purpose of the website system.
 
 Replace this text with an explanation of what you will need to consider moving forward and how the project will be impacted by this implication.
 
 ### Functionality
 
-Replace this text with a clear explanation of what the implication means.
+The functionality implications of a system relate to how well it works for the end-user, in terms of meeting its intended purpose.
 
 Replace this text with an explanation of why the implication is relevant to this particular project.
 
