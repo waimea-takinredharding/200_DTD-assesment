@@ -56,7 +56,7 @@ Replace this text with an explanation of what you will need to consider moving f
 
 The functionality implications of a system relate to how well it works for the end-user, in terms of meeting its intended purpose.
 
-Replace this text with an explanation of why the implication is relevant to this particular project.
+I need to make my system work properly, with no major errors or bugs.
 
 Replace this text with an explanation of what you will need to consider moving forward and how the project will be impacted by this implication.
 

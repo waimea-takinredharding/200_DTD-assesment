@@ -11,11 +11,13 @@ Assessment Standards: **91892** and **91893**
 
 ## Design, Development and Testing Log
 
-### DATE HERE
+### 21/05/24
 
-Replace this test with what you are working on
+Making a flow diagram for the website in 'Excalidraw' 
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+![Flow diagram v1](images/flowv1.png)
+
+user consultation pending
 
 ### DATE HERE
 
