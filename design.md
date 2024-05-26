@@ -34,7 +34,7 @@ The usability of a system is how easy/difficult it is for users to make the syst
 
 I will need to design my system to be as usable as possible since the main client (the shop owner) of the second-hand shop may not have advanced IT skills. Any customers that use the website could also have a wide range of IT skills. I need to ensure that the system is usable for people, even if they aren’t skilled with IT.
 
-Replace this text with an explanation of what you will need to consider moving forward and how the project will be impacted by this implication.
+I will make sure that the system is intuitive to understand by removing unnecessary details and making simple basic functions to use the site.
 
 ### Aesthetics
 
