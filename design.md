@@ -1,6 +1,6 @@
 # The Design of a Database-Linked Website for NCEA Level 2
 
-Project Name: **Inventory Manager**
+Project Name: **Inventory Listing System**
 
 Project Author: **Torrian Kinred-Harding**
 

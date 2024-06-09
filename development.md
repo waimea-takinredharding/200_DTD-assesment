@@ -1,8 +1,8 @@
 # Development of a Database-Linked Website for NCEA Level 2
 
-Project Name: **PROJECT NAME HERE**
+Project Name: **Inventory Listing System**
 
-Project Author: **YOUR NAME HERE**
+Project Author: **Torrian Kinred-Harding**
 
 Assessment Standards: **91892** and **91893**
 
@@ -19,11 +19,11 @@ Making a flow diagram for the website in 'Excalidraw'
 
 user consultation pending
 
-### DATE HERE
+### 23/05/24
 
-Replace this test with what you are working on
+making a mock-up of the ui in 'Figma'
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+![Ui Design v1](images/uimock_upv1.png)
 
 ### DATE HERE
 
