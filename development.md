@@ -19,9 +19,9 @@ Making a flow diagram for the website in 'Excalidraw'
 
 user consultation pending
 
-### DATE HERE
+### 23/05/24
 
-Replace this test with what you are working on
+making a mock-up of the ui in 'Figma'
 
 Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
 
