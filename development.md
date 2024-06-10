@@ -25,6 +25,12 @@ making a mock-up of the ui in 'Figma'
 
 ![Ui Design v1](images/uimock_upv1.png)
 
+
+
+![Ui Design v2](images/uimock_upv2.png)
+
+added button functionality
+
 ### DATE HERE
 
 Replace this test with what you are working on
