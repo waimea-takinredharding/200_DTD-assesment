@@ -17,7 +17,15 @@ Making a flow diagram for the website in 'Excalidraw'
 
 ![Flow diagram v1](images/flowv1.png)
 
-user consultation pending
+
+#### update (13/06/24)
+
+met with the Client and they said 'i don't intend for the public to use this, so you can remove the admin sign-in. i would also like for a menu and the option to add or remove item categories'
+
+
+i made a updated version of the ui flow to meet the client's specifications:
+
+![Flow diagram v2](images/flowv2.png)
 
 ### 23/05/24
 
@@ -31,11 +39,31 @@ making a mock-up of the ui in 'Figma'
 
 added button functionality
 
-### DATE HERE
+#### update (13/06/24)
 
-Replace this test with what you are working on
+met with the Client and they said 'since you're updating the 'flow' of the UI, i obviously also want you to include all the changes in the mock-up'
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+
+i made a updated version of the UI to meet client's requests:
+
+![UI Design v3](images/uimockupv3.png)
+
+video showing mock-up in action here:
+
+<video src="videos/Ui demo.mp4" controls title="Title"></video>
+
+added colour to UI mock-up
+
+![UI colour design v1](images/uicolourv1.png)
+
+client feedback pending
+
+### 13/06/24
+
+finished database design
+
+![Database design](images/databasedesign.png)
+
 
 ### DATE HERE
 
