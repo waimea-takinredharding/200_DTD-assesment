@@ -17,7 +17,7 @@ Owners of second-hand stores have a very messy and chaotic inventory by nature, 
 
 ### End-User Requirements
 
-Replace this text with a description of your typical end-users and their specific needs / expectations / requirements.
+My end user will only be one person, who has moderate IT skills.therefore, i will need to make sure that the UI is simple and intuitive to use without any major complexity.
 
 ### Proposed Solution
 
