@@ -24,9 +24,9 @@ $page = basename($_SERVER['SCRIPT_NAME']);
         <h1><?= SITE_NAME ?></h1>
 
         <nav>
-            <a href="index.php"     class="<?= $page=='index.php'     ? 'active' : '' ?>">opening page</a>
-            <a href="games.php"     class="<?= $page=='games.php'     ? 'active' : '' ?>">Game List</a>
-            <a href="employees.php" class="<?= $page=='employees.php' ? 'active' : '' ?>">Employee List</a>
+            <a href="menu.php"      class="<?= $page=='menu.php'      ? 'active' : '' ?>">Menu Button</a>
+            <a href="add-item.php"  class="<?= $page=='add-item.php'     ? 'active' : '' ?>">Add item</a>
+            <a href="employees.php" class="<?= $page=='employees.php' ? 'active' : '' ?>">Delete item</a>
         </nav>
     </header>
 
