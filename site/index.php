@@ -22,4 +22,31 @@ catch (PDOException $e) {
     die('There was an error getting data from the database');
 }
 
+//see what we got back
+consoleLog($items);
+
+echo '<ul id="item-list">';
+
+foreach($items as $item) {
+    echo '<li>';
+
+    echo '<a href = "company.php?code=' . $item['name'] . '">';
+    echo   $item['name'];
+    echo '</a>';
+
+
+    echo '<a href="$' . $item['description'] . '">';
+    echo  $item ['description'];
+    echo  '</a>';
+
+    echo '</li>';
+}
+
+echo'</ul>';
+
+echo '<div id="add-button"><a href="form-item.php">
+     Add item
+     </a>
+    </div>';
+
 include 'partials/bottom.php' ?>

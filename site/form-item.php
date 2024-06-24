@@ -1,5 +1,5 @@
 <?php 
-require '_functions.php';
+require 'lib/utils.php';
 include 'partials/top.php';
 
 $db = connectToDB();
