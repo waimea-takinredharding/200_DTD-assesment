@@ -46,16 +46,5 @@ catch (PDOException $e) {
     echo '</option>';
 }
 
-?>
-
-</select>
-
-    <label>Sales</label>
-    <input name="sales" type="number" placeholder = "E.G. 100000" required>
-
-   </input> 
-
-
-<?php
 include 'partials/bottom.php';
 ?>

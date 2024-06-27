@@ -29,6 +29,9 @@ echo '<ul id="item-list">';
 
 foreach($items as $item) {
     echo '<li>';
+    echo '<p> </p>';
+
+
 
     echo '<a href = "company.php?code=' . $item['name'] . '">';
     echo   $item['name'];
