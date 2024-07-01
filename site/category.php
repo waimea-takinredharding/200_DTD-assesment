@@ -18,8 +18,8 @@ try {
     $company = $stmt->fetch();
 }
 catch (PDOException $e) {
-    consoleLog($e->getMessage(), 'DB Company Fetch', ERROR);
-    die('There was an error getting company data from the database');
+    consoleLog($e->getMessage(), 'DB Category Fetch', ERROR);
+    die('There was an error getting category data from the database');
 }
 
 if ($company == false) die('unknown company : ' . $companyCode);
