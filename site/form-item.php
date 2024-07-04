@@ -10,7 +10,7 @@ $query = 'SELECT * FROM categories ORDER BY name ASC';
 try{
     $stmt = $db->prepare($query);
     $stmt->execute();
-    $companies = $stmt->fetchAll();
+    $categories = $stmt->fetchAll();
 }
 catch (PDOException $e) {
     consoleLog($e->getMessage(), 'DB List Fetch', ERROR);
@@ -34,17 +34,21 @@ catch (PDOException $e) {
    <label>Category</label>
    <select name="category" required>
 
+
+
    <?php
 
 
 
-   foreach($companies as $company) {
+   foreach($categories as $category) {
     echo '<li>';
 
-    echo '<option value= " ' . $company['code'] . '">';
-    echo   $company['name'];
+    echo '<option value= " ' . $category['id'] . '">';
+    echo   $category['name'];
     echo '</option>';
 }
-
+?>
+<input type="submit">
+<?php
 include 'partials/bottom.php';
 ?>

@@ -6,7 +6,6 @@ include 'partials/top.php';
 echo '<h1>Inventory Manager</h1>';
 
 
-
 $db = connectToDB();
 consoleLog($db);
 
