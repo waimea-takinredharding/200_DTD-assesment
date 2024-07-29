@@ -18,7 +18,6 @@ catch (PDOException $e) {
     consoleLog($e->getMessage(), 'DB List Fetch', ERROR);
   die('There was an error getting data from the database');
 }
-
-
 //echo '<a href=”delete-task.php?id=’ .$id . ’';
-//echo "onclick="; return confirm(`Are you sure?`);">Delete</a>
+//echo "onclick="; return confirm(`Are you sure?`);">Delete</a>"
+//?>

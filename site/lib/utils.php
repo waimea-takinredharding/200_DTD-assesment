@@ -84,15 +84,15 @@ function connectToDB() {
  * which can then be stored inside a BLOB field
  *
  * Arguments: $image - an entry from the $_FILES array
- *                     with uploded file information
+ *                     with uploaded file information
  *
- * Returns: an array conataining...
+ * Returns: an array containing...
  *          - the binary data of the uploaded image
  *            suitable to be stored within a BLOB
  *          - the image type (e.g. image/png)
  */
 function uploadedImageData($image) {
-    // Check for uplaod error
+    // Check for upload error
     if ($image['error']) die('There was an error uploading the image');
 
     // Get uploaded image details
@@ -130,7 +130,7 @@ function uploadedImageData($image) {
  *       will suppress the output, otherwise it is shown
  *
  * Arguments: $var - a variable to display
- *            $heading - an optional heading to show beforhand
+ *            $heading - an optional heading to show beforehand
  *            $level - either INFO (default) or ERROR level
  */
 function consoleLog($var, $heading='', $level=INFO) {
@@ -185,7 +185,7 @@ function consoleGroupEnd() {
 
 
 /**
- * Add a visual seperator within the JS Console in the browser
+ * Add a visual separator within the JS Console in the browser
  *
  * Note, if a constant DEBUG is defined and set to false, this
  *       will suppress the output, otherwise it is shown
