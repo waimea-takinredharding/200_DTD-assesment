@@ -1,23 +1,38 @@
-<?php 
-require 'lib/utils.php';
+<?php
+require '_functions.php';
 include 'partials/top.php';
+ 
+ 
+echo '<h1>Adding item to Database...</h1>';
+ 
+consoleLog($_POST, 'POST Data');
+ 
+$name        = $_POST['name'];
+$description = $_POST['description'];
+$category    = $_POST['category']
+ 
 
-
-echo '<p>Inventory Manager</p>';
-
-
-
+echo '<p>Name: '          . $name;
+echo '<p>Description: '   . $description;
+echo '<p>Category: '      . $category;
+ 
 $db = connectToDB();
-consoleLog($db);
-
-$query = 'SELECT * FROM categories';
-
-try{
+ 
+$query = 'INSERT INTO items
+          (name, description, category)
+          VALUES (?,?,?)';
+ 
+try {
     $stmt = $db->prepare($query);
-    $stmt->execute();
-    $categories = $stmt->fetchAll();
+    $stmt->execute([$id, $name, $description]);
 }
 catch (PDOException $e) {
-    consoleLog($e->getMessage(), 'DB List Fetch', ERROR);
-    die('There was an error getting data from the database');
+    consoleLog($e->getMessage(), 'DB Item Add', ERROR);
+    die('There was an error adding data to the database');
 }
+ 
+echo '<p>Success</p>';
+ 
+include 'partials/bottom.php';
+ 
+?>

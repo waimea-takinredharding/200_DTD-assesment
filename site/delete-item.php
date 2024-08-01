@@ -20,4 +20,4 @@ catch (PDOException $e) {
 }
 //echo '<a href=”delete-task.php?id=’ .$id . ’';
 //echo "onclick="; return confirm(`Are you sure?`);">Delete</a>"
-//?>
+?>
