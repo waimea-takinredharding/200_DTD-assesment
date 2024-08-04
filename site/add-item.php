@@ -1,5 +1,5 @@
 <?php
-require '_functions.php';
+require 'lib/utils.php';
 include 'partials/top.php';
  
  
@@ -10,12 +10,13 @@ consoleLog($_POST, 'POST Data');
 $name        = $_POST['name'];
 $description = $_POST['description'];
 $category    = $_POST['category']
- 
+
 
 echo '<p>Name: '          . $name;
 echo '<p>Description: '   . $description;
 echo '<p>Category: '      . $category;
  
+
 $db = connectToDB();
  
 $query = 'INSERT INTO items
