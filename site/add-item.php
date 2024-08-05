@@ -9,7 +9,7 @@ consoleLog($_POST, 'POST Data');
  
 $name        = $_POST['name'];
 $description = $_POST['description'];
-$category    = $_POST['category']
+$category    = $_POST['category'];
 
 
 echo '<p>Name: '          . $name;
@@ -25,7 +25,7 @@ $query = 'INSERT INTO items
  
 try {
     $stmt = $db->prepare($query);
-    $stmt->execute([$id, $name, $description]);
+    $stmt->execute([$name, $description, $category]);
 }
 catch (PDOException $e) {
     consoleLog($e->getMessage(), 'DB Item Add', ERROR);
