@@ -8,13 +8,14 @@ echo '<h1>Adding item to Database...</h1>';
 consoleLog($_POST, 'POST Data');
  
 $name        = $_POST['name'];
-$description = $_POST['description'];
+$description = $_POST['desc'];
 $category    = $_POST['category'];
 
 
 echo '<p>Name: '          . $name;
 echo '<p>Description: '   . $description;
 echo '<p>Category: '      . $category;
+
  
 
 $db = connectToDB();
