@@ -51,4 +51,9 @@ echo '<div id="add-button"><a href="form-item.php">
      </a>
     </div>';
 
+echo '<div id="add-button"><a href="form-category.php">
+    Add category
+    </a>
+   </div>';
+
 include 'partials/bottom.php' ?>
