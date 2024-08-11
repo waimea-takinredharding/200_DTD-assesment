@@ -17,7 +17,7 @@ $db = connectToDB();
  
 $query = 'INSERT INTO categories
           (name, description)
-          VALUES (?,?,?)';
+          VALUES (?,?)';
  
 try {
     $stmt = $db->prepare($query);
