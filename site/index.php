@@ -41,6 +41,11 @@ foreach($items as $item) {
     echo  $item ['description'];
     echo  '</a>';
 
+    echo '<div id="delete-button"><a href="delete-item.php">
+     Delete item
+     </a>
+    </div>';
+
     echo '</li>';
 }
 
@@ -56,14 +61,9 @@ echo '<div id="add-button"><a href="form-category.php">
     </a>
    </div>';
 
-echo '<div id="delete-button"><a href="delete-item.php">
-   Delete item
-   </a>
-</div>';
-
-echo '<div id="delete-button"><a href="delete-category.php">
+   echo '<div id="delete-button"><a href="delete-category.php">
    Delete category
    </a>
-</div>';
+  </div>';
 
 include 'partials/bottom.php' ?>
