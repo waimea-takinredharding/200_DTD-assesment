@@ -41,10 +41,7 @@ foreach($items as $item) {
     echo  $item ['description'];
     echo  '</a>';
 
-    echo '<div id="delete-button"><a href="delete-item.php">
-     Delete item
-     </a>
-    </div>';
+    echo  '<a class="name" href="delete-item.php?id=' . $item['id'] . '">Delete item🗑</a>';
 
     echo '</li>';
 }

@@ -1,9 +1,9 @@
 <?php
 require_once 'lib/utils.php';
 
-$db = connectToDB();
-
 $itemId =   $_GET['id'] ?? " ";
+
+$db = connectToDB();
 
 
 $query =  'DELETE from items where id =?';
@@ -14,12 +14,11 @@ try{
     $stmt->execute([$itemId]);
 }
 catch (PDOException $e) {
-    consoleLog($e->getMessage(), 'DB List Fetch', ERROR);
+    consoleLog($e->getMessage(), 'DB Delete Fetch', ERROR);
   die('There was an error getting data from the database');
 }
 
 //echo '<a href=”delete-task.php?id=’ .$id . ’';
-//echo "onclick="; return confirm(`Are you sure?`);">Delete</a>";
+//echo "onclick="; return confirm('Are you sure?');">Delete</a>";
 
-include 'partials/bottom.php';
 ?>
