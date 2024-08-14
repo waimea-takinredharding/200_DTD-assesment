@@ -24,9 +24,7 @@ $page = basename($_SERVER['SCRIPT_NAME']);
         <h1><?= SITE_NAME ?></h1>
 
         <nav>
-            <a href="add-item.php"  class="    <?= $page=='form-item.php'     ? 'active' : '' ?>">Add item</a>
-            <a href="add-category.php"  class="<?= $page=='form-category.php' ? 'active' : '' ?>">Add category</a>
-            <a href="delete-item.php" class="  <?= $page=='delete-item.php'   ? 'active' : '' ?>">Delete item</a>
+            <a href="index.php"        class=" <?= $page=='index.php'         ? 'active' : '' ?>"           >Home</a>
         </nav>
     </header>
 
