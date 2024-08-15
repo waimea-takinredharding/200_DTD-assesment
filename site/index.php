@@ -9,7 +9,19 @@ echo '<h1>Inventory Manager</h1>';
 $db = connectToDB();
 consoleLog($db);
 
-$query = 'SELECT * FROM items';
+//$query = 'SELECT * FROM items';
+$query = 'SELECT items.name        as iname,
+                 items.id          as iid,
+                 items.description as idesc,
+                 categories.id     as ccode,
+                 categories.name   as cname
+
+                 
+             FROM items
+             Join categories on items.category = categories.id
+             
+             ORDER BY categories.id ASC';
+
 
 try{
     $stmt = $db->prepare($query);
@@ -28,32 +40,35 @@ echo '<ul id="item-list">';
 
 foreach($items as $item) {
     echo '<li>';
-    echo '<p> </p>';
+    echo '<h4>';
+    echo  $item['iname'];
+    echo '<p>
+    
+    </p>';
+    echo  $item['cname'];
+    echo '</h4>';
 
 
 
-    echo '<a href = "company.php?code=' . $item['name'] . '">';
-    echo   $item['name'];
-    echo '</a>';
 
 
-    echo '<a href="$' . $item['description'] . '">';
-    echo  $item ['description'];
-    echo  '</a>';
+    echo '<p>';
+    echo  $item ['idesc'];
+    echo '</p>';
 
-    echo  '<a class="name" href="delete-item.php?id=' . $item['id'] . '">Delete item🗑</a>';
+    echo  '<a class="name" href="delete-item.php?id=' . $item['iid'] . '">Delete item🗑</a>';
 
     echo '</li>';
 }
 
 echo'</ul>';
 
-echo '<div id="add-button"><a href="form-item.php">
+echo '<div id="add-button-item"><a href="form-item.php">
      Add item
      </a>
     </div>';
 
-echo '<div id="add-button"><a href="form-category.php">
+echo '<div id="add-button-category"><a href="form-category.php">
     Add category
     </a>
    </div>';

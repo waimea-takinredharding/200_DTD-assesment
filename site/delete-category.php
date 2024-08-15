@@ -3,7 +3,7 @@ require_once 'lib/utils.php';
 
 $db = connectToDB();
 
-$itemId =   $_GET['id'] ?? " ";
+$categoryId =   $_GET['id'] ?? " ";
 
 
 $query =  'DELETE from categories where id =?';
@@ -11,7 +11,7 @@ $query =  'DELETE from categories where id =?';
 
 try{
     $stmt = $db->prepare($query);
-    $stmt->execute([$itemId]);
+    $stmt->execute([$categoryId]);
 }
 catch (PDOException $e) {
     consoleLog($e->getMessage(), 'DB List Fetch', ERROR);

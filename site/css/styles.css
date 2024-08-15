@@ -94,6 +94,10 @@ main {
     padding: 0.5rem;
 }
  
+#item-list li h4 {
+    margin: 0 0 0.5em 0;
+}
+ 
 #item-list li p {
     display: flex;
     width: 100%;
@@ -155,29 +159,29 @@ select:not(:last-child) {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 4rem;
-    width: 4rem;
-    background-color: rgb(255, 238, 0);
+    height: 6rem;
+    width: 6rem;
+    background-color: #90A4AE;
     border-radius: 3rem;
 }
  
 /*ADD BUTTON CATEGORY************************************************/
 #add-button-category {
     position: fixed;
-    right: 7rem;
+    right: 10rem;
     bottom: 2rem;
 }
- 
+
 #add-button-category a {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 4rem;
-    width: 4rem;
-    background-color: rgb(255, 238, 0);
+    height: 6rem;
+    width: 6rem;
+    background-color: #90A4AE;
     border-radius: 3rem;
 }
- 
+
  
 /* FOOTER ****************************************************/
  

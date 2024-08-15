@@ -21,8 +21,17 @@ My end user will only be one person, who has moderate IT skills.therefore, i wil
 
 ### Proposed Solution
 
-Replace this text with a brief statement about the system that you intend to create, including the key functionality it should have.
+This system will be able to:
 
+* Show a list of items on the main page and their category
+
+* Add items to the list
+
+* Add categories to the database which new items can be listed under
+
+* Remove items from the list
+
+* Remove categories from the database
 
 -------------------------------------------------
 
@@ -56,7 +65,7 @@ Replace this text with an explanation of what you will need to consider moving f
 
 The functionality implications of a system relate to how well it works for the end-user, in terms of meeting its intended purpose.
 
-I need to make my system work properly, with no major errors or bugs.
+I need to make my system work properly, with no major errors or bugs. This is absolutely necessary because a non-functional website cannot be used.
 
 Replace this text with an explanation of what you will need to consider moving forward and how the project will be impacted by this implication.
 
