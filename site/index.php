@@ -46,6 +46,7 @@ foreach($items as $item) {
     
     </p>';
     echo  $item['cname'];
+    echo  '<a class="name" href="category.php?code=' . $item['ccode'] . '">see category</a>';
     echo '</h4>';
 
 

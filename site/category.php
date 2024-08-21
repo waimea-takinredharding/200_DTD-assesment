@@ -1,82 +1,66 @@
 <?php
-require '_functions.php';
+require 'lib/utils.php';
 include 'partials/top.php';
 
-$companyCode = $_GET['code'] ?? ' ';
+$ccode = $_GET['code'] ?? ' ';
 
-//SQl we need to get the comapny info
+//SQl we need to get the category info
 // SELECT * FROM companies WHERE code = XXX
 
 $db = connectToDB();
 consoleLog($db);
 
-$query = 'SELECT * FROM companies WHERE code = ?';
+$query = 'SELECT * FROM categories WHERE id = ?';
 
 try {
     $stmt = $db->prepare($query);
-    $stmt->execute([$companyCode]);
-    $company = $stmt->fetch();
+    $stmt->execute([$ccode]);
+    $category = $stmt->fetch();
 }
 catch (PDOException $e) {
     consoleLog($e->getMessage(), 'DB Category Fetch', ERROR);
     die('There was an error getting category data from the database');
 }
 
-if ($company == false) die('unknown company : ' . $companyCode);
+if ($category == false) die('unknown category: ' . $ccode);
 
-echo $company['name'];
-
-
+echo $category['name'];
 
 
 
-$query = 'SELECT * FROM games WHERE company = ?';
+
+
+$query = 'SELECT * FROM items WHERE category = ?';
 
 try{
     $stmt = $db->prepare($query);
-    $stmt->execute([$companyCode]);
-    $games = $stmt->fetchAll();
+    $stmt->execute([$ccode]);
+    $items = $stmt->fetchAll();
 }
 catch (PDOException $e) {
-    consoleLog($e->getMessage(), 'DB Game Fetch', ERROR);
-    die('There was an error getting game data from the database');
+    consoleLog($e->getMessage(), 'DB Item Fetch', ERROR);
+    die('There was an error getting item data from the database');
 }
 
 //------------------------------------
-echo '<div id="games">';
-echo '<h3>Games</h3>';
+echo '<div id="items">';
+echo '<h3>items</h3>';
 
-if ($company == false) {
+if ($category == false) {
    // No records found
    echo 'None';
 }
 else {
-    //list game records
-    echo '<ul id="game- list">';
-  foreach($games as $game) {
+    //list item records
+    echo '<ul id="item- list">';
+  foreach($items as $item) {
     echo '<li>';
-    echo   $game['name'];
+    echo   $item['name'];
     echo '</li>';
   }
 }
 
 //see what we got back
-consoleLog($games);
-
-//----------------------------------
-
-$query = 'SELECT * FROM employees where company = ?';
-
-try{
-    $stmt = $db->prepare($query);
-    $stmt->execute([$companyCode]);
-    $employees = $stmt->fetchAll();
-}
-catch (PDOException $e) {
-    consoleLog($e->getMessage(), 'DB Game Fetch', ERROR);
-    die('There was an error getting game data from the database');
-}
-
-
+consoleLog($items);
 
 include 'partials/bottom.php';

@@ -161,7 +161,7 @@ select:not(:last-child) {
     align-items: center;
     height: 6rem;
     width: 6rem;
-    background-color: #90A4AE;
+    background-color: #8BC34A;
     border-radius: 3rem;
 }
  
@@ -178,7 +178,7 @@ select:not(:last-child) {
     align-items: center;
     height: 6rem;
     width: 6rem;
-    background-color: #90A4AE;
+    background-color: #8BC34A;
     border-radius: 3rem;
 }
 
