@@ -5,7 +5,7 @@ include 'partials/top.php';
 $ccode = $_GET['code'] ?? ' ';
 
 //SQl we need to get the category info
-// SELECT * FROM companies WHERE code = XXX
+// SELECT * FROM categories WHERE id = XXX
 
 $db = connectToDB();
 consoleLog($db);
@@ -62,5 +62,10 @@ else {
 
 //see what we got back
 consoleLog($items);
+
+
+//delete button
+echo  '<a class="name" href="delete-category.php?id=' . $category['id'] . '">Delete category🗑</a>';
+
 
 include 'partials/bottom.php';

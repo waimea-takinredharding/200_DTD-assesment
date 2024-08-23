@@ -1,6 +1,6 @@
 <?php
 
-define('SITE_NAME', 'PHP Database Demo');
+define('SITE_NAME', 'Inventory Management System');
 define('SITE_AUTHOR', 'Steve Copley');
 
 ?>
