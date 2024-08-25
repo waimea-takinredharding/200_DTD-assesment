@@ -81,6 +81,9 @@ Place a image here that shows the *final design* of your database: tables, field
 
 Place images here that show your *final design* of your UI: layout, colours, etc.
 
+Ui design here:
+![UI final design](images/uicolourv1.png)
+
 
 -------------------------------------------------
 
@@ -115,7 +118,7 @@ Replace this text with a brief evaluation of how well you met the requirements t
 
 In the end, the site did meet the needs of the client. The site can: Show a list of items on the main page and their category, show individual categories and all the items that belong to them, add items to the list, add categories to the database which new items can be listed under, and remove items from the list. The needs of the user have been met. 
 
-This image shows a list of items and the category they belong to, as well as the ability to delete items ![alt text](images/image.png)
+This image shows a list of items and the category they belong to, as well as the ability to delete items ![alt text](images/uipicture.png)
 Accompany the notes with screenshots / other media to illustrate specific features.
 
 ### Review of Aesthetics
@@ -124,5 +127,7 @@ In the final product, this relevant implication was ignored to a degree. This is
 
 ### Review of Usability
 
-Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
+In terms of usability, the site is mostly simple and intuitive to understand. Buttons do what people would expect them to do, and so on.
+
+This picture shows the home button in the top right corner, and the items in the middle of the page. Pressing 'see category' brings you to a list of every item in that category, and pressing 'delete item' does exactly that. [Ui picture](images/uipicture.png) Accompany the notes with screenshots / other media to illustrate specific features.
 
