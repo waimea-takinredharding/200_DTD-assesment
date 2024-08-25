@@ -74,9 +74,5 @@ echo '<div id="add-button-category"><a href="form-category.php">
     </a>
    </div>';
 
-   echo '<div id="delete-button"><a href="delete-category.php">
-   Delete category
-   </a>
-  </div>';
 
 include 'partials/bottom.php' ?>

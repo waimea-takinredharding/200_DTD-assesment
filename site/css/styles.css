@@ -26,7 +26,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
-    background-color: darkslategray;
+    background-color: #90A4AE;
     border-bottom: 1px solid slategrey;
 }
  
@@ -89,7 +89,7 @@ main {
 #item-list li {
     margin-bottom: 0.3rem;
     width: 100%;
-    background-color: #369;
+    background-color: #CFD8DC;
     border-radius: 0.3rem;
     padding: 0.5rem;
 }
@@ -114,7 +114,7 @@ main {
 }
  
 #item-list li:hover {
-    background-color: #f00;
+    background-color: #90A4AE;
 }
  
  

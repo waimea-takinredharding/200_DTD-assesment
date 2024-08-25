@@ -17,7 +17,7 @@ Owners of second-hand stores have a very messy and chaotic inventory by nature, 
 
 ### End-User Requirements
 
-My end user will only be one person, who has moderate IT skills.therefore, i will need to make sure that the UI is simple and intuitive to use without any major complexity.
+My end user will only be one person, who has moderate IT skills. Therefore, i will need to make sure that the UI is simple and intuitive to use without any major complexity.
 
 ### Proposed Solution
 
@@ -25,13 +25,13 @@ This system will be able to:
 
 * Show a list of items on the main page and their category
 
+* show individual categories and all the items that belong to them
+
 * Add items to the list
 
 * Add categories to the database which new items can be listed under
 
 * Remove items from the list
-
-* Remove categories from the database
 
 -------------------------------------------------
 
@@ -51,7 +51,7 @@ The aesthetic implications of a system relate to how it looks in terms of design
 
 I should include aesthetic considerations when i design the system UI because a pleasantly designed interface is much more enjoyable to use than a badly designed one(clashing colours, etc.). This is especially important because several customers might be using the website, so the appearance has more importance than if it was just the shop owner using the site.
 
-Replace this text with an explanation of what you will need to consider moving forward and how the project will be impacted by this implication.
+I will need to try and make the website User Interface visually apealling.
 
 ### End-users
 
@@ -59,7 +59,7 @@ The end-user implications of a digital technology or digital outcome (e.g. a web
 
 It is very important that i ensure the end product fulfils the shop owner's requirements (being able to digitally record inventory), because that is the entire purpose of the website system.
 
-Replace this text with an explanation of what you will need to consider moving forward and how the project will be impacted by this implication.
+I will ask the client whether the finished product meets their expectations and requirements.
 
 ### Functionality
 
@@ -67,7 +67,7 @@ The functionality implications of a system relate to how well it works for the e
 
 I need to make my system work properly, with no major errors or bugs. This is absolutely necessary because a non-functional website cannot be used.
 
-Replace this text with an explanation of what you will need to consider moving forward and how the project will be impacted by this implication.
+I will make sure my website works as intended, with no major bugs or errors.
 
 
 -------------------------------------------------## Final System Design
@@ -75,6 +75,7 @@ Replace this text with an explanation of what you will need to consider moving f
 ### Database Structure
 
 Place a image here that shows the *final design* of your database: tables, fields and relationships.
+
 
 ### User Interface Design
 
@@ -88,6 +89,9 @@ Place images here that show your *final design* of your UI: layout, colours, etc
 ### Database Structure
 
 Place a image here that shows the *actual database structure* that you implemented: tables, fields and relationships.
+
+Database schema here: ![Database schema](images/databaseschema.png)
+
 
 ### User Interface Design
 
@@ -106,15 +110,15 @@ Replace this text with a brief evaluation of how well you met the needs of your 
 
 Replace this text with a brief evaluation of how well you met the requirements that you defined at the start of the project, etc. Look back at the list of features / functionality you initially set and discuss how well your system has implemented each one.
 
-### Review of IMPLICATION NAME HERE
+### Review of End-Users
 
 Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
 
-### Review of IMPLICATION NAME HERE
+### Review of Aesthetics
 
-Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
+In the final product, this relevant implication was ignored to a degree. This is because the client decided that they would be the only one to use the site, meaning that aesthetics were less important because no customers would be seeing the site. Accompany the notes with screenshots / other media to illustrate specific features.
 
-### Review of IMPLICATION NAME HERE
+### Review of Usability
 
 Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
 
