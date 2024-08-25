@@ -104,7 +104,8 @@ Place screenshots and notes here that show your *actual system UI* in action.
 
 ### Meeting the Needs of the Users
 
-Replace this text with a brief evaluation of how well you met the needs of your users. Look at what you initially wrote about who they are, what specific needs they have, etc. and discuss how well the system meets those needs.
+In general, the site meets the needs of the user. 
+Additionally, the system is fairly simple to use, which suits the IT skill of the client.
 
 ### Meeting the System Requirements
 
@@ -112,7 +113,10 @@ Replace this text with a brief evaluation of how well you met the requirements t
 
 ### Review of End-Users
 
-Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
+In the end, the site did meet the needs of the client. The site can: Show a list of items on the main page and their category, show individual categories and all the items that belong to them, add items to the list, add categories to the database which new items can be listed under, and remove items from the list. The needs of the user have been met. 
+
+This image shows a list of items and the category they belong to, as well as the ability to delete items ![alt text](images/image.png)
+Accompany the notes with screenshots / other media to illustrate specific features.
 
 ### Review of Aesthetics
 
