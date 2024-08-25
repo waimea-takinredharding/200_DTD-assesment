@@ -13,7 +13,7 @@ Assessment Standards: **91892** and **91893**
 
 ### Identified Need or Problem
 
-Owners of second-hand stores have a very messy and chaotic inventory by nature, making it hard to know everything they have in store. Having a system that tracked their inventory would decrease the need to check the store manually.
+Owners of second-hand stores have a very messy and chaotic inventory by nature, making it hard to know everything they have in store. Having a system that tracked their inventory would decrease the need to browse the store manually.
 
 ### End-User Requirements
 
