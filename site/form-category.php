@@ -19,7 +19,7 @@ catch (PDOException $e) {
 ?>
 
 
-<h1>New Item</h1>
+<h1>New Category</h1>
 
 
 <form method="post" action="add-category.php">

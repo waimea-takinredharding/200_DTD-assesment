@@ -70,16 +70,16 @@ I need to make my system work properly, with no major errors or bugs. This is ab
 I will make sure my website works as intended, with no major bugs or errors.
 
 
--------------------------------------------------## Final System Design
+-------------------------------------------------
+## Final System Design
 
 ### Database Structure
 
-Place a image here that shows the *final design* of your database: tables, fields and relationships.
+
+Database design here: ![Database design](images/databasedesign.png)
 
 
 ### User Interface Design
-
-Place images here that show your *final design* of your UI: layout, colours, etc.
 
 Ui design here:
 ![UI final design](images/uicolourv1.png)
@@ -91,15 +91,21 @@ Ui design here:
 
 ### Database Structure
 
-Place a image here that shows the *actual database structure* that you implemented: tables, fields and relationships.
-
 Database schema here: ![Database schema](images/databaseschema.png)
 
 
 ### User Interface Design
 
-Place screenshots and notes here that show your *actual system UI* in action.
 
+![home page](images/ui_in_action.png)
+this shows the home page
+
+![category.php visual](images/category_page_in_action.png)
+this shows the category page
+
+![new category page](images/category_add_in_action.png)
+
+this shows adding a category
 
 -------------------------------------------------
 
@@ -112,7 +118,20 @@ Additionally, the system is fairly simple to use, which suits the IT skill of th
 
 ### Meeting the System Requirements
 
-Replace this text with a brief evaluation of how well you met the requirements that you defined at the start of the project, etc. Look back at the list of features / functionality you initially set and discuss how well your system has implemented each one.
+In general, the requirements defined at the start of the project were fulfilled reasonably well.
+
+My proposed list of functionalities
+Show a list of items on the main page and their category. This was done fairly well; the description is aslo visible, making it better than just having the name
+
+show individual categories and all the items that belong to them. This can be done by pressing 'see category' on each item's box. This method of seeing categories is not ideal, because there might be categories that do not have items assigned to them, meaning they cannot be seen outside of  the 'add item' page.
+
+Add items to the list. this works as intended
+
+Add categories to the database which new items can be listed under. this also works as intended.
+
+Remove items from the list. This is done by pressing the 'Delete item🗑' button on the item box. the deletion is easy and quick, but this in itself is not entirely a good thing. the client could accidentally delete a item they did not intend to because there is no prompt or confirmation message.
+
+
 
 ### Review of End-Users
 
@@ -129,5 +148,4 @@ In the final product, this relevant implication was ignored to a degree. This is
 
 In terms of usability, the site is mostly simple and intuitive to understand. Buttons do what people would expect them to do, and so on.
 
-This picture shows the home button in the top right corner, and the items in the middle of the page. Pressing 'see category' brings you to a list of every item in that category, and pressing 'delete item' does exactly that. [Ui picture](images/uipicture.png) Accompany the notes with screenshots / other media to illustrate specific features.
-
+This picture shows the home button in the top right corner, and the items in the middle of the page. Pressing 'see category' brings you to a list of every item in that category, and pressing 'delete item' does exactly that. ![Ui picture](images/uipicture.png)
