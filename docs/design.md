@@ -106,8 +106,10 @@ this shows the category page
 ![new category page](images/category_add_in_action.png)
 this shows adding a category
 
-<video controls src="videos/Ui final showcase.mp4" title="Title"></video>
-this shows the UI in action
+https://mywaimeaschool-my.sharepoint.com/:v:/g/personal/takinredharding_waimea_school_nz/EVpokPYUOGpEom8TNsSbticBD_BcV4BAnW7tRzED9un9Og?e=xKAwfd&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+in this, an item is made in multiple categories, a category page is shown, an item is deleted, and a category is added
+
 
 -------------------------------------------------
 
