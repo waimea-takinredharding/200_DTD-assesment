@@ -150,9 +150,4 @@ In the final product, this relevant implication was ignored to a degree. This is
 
 In terms of usability, the site is mostly simple and intuitive to understand. Buttons do what people would expect them to do, and so on.
 
-<<<<<<< HEAD
 This picture shows the home button in the top right corner, and the items in the middle of the page. Pressing 'see category' brings you to a list of every item in that category, and pressing 'delete item' does exactly that. [Ui picture](images/uipicture.png)
-=======
-This picture shows the home button in the top right corner, and the items in the middle of the page. Pressing 'see category' brings you to a list of every item in that category, and pressing 'delete item' does exactly that. ![Ui picture](images/uipicture.png)
-
->>>>>>> a3d8bead968f165bb2cc8ea99d324383dd87a3f7
